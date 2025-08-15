@@ -1,20 +1,47 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# System Sync Pro
 
-# Run and deploy your AI Studio app
+![System Sync Pro Screenshot](https://i.imgur.com/example-screenshot.png) <!-- Placeholder: A real screenshot would go here -->
 
-This contains everything you need to run your app locally.
+**System Sync Pro** is a modern, intuitive dashboard designed to manage and synchronize crucial developer and user data across multiple platforms. It provides a unified interface for running command scripts, syncing files to cloud storage, and merging browser bookmarks.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1RBzpWepGz-i0hPRpm0Fsmc6w51kj7g9q
+Built with scalability and user experience in mind, this application serves as a robust frontend prototype, demonstrating a clean architecture ready to be integrated with powerful backend services to support millions of users.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## ✨ Key Features
 
+-   **🖥️ Command Runner**:
+    -   Add, manage, and remove a list of shell commands.
+    -   Simulate running all commands in sequence.
+    -   View real-time status (Pending, Running, Success, Error) and a consolidated output log.
+    -   Cross-platform compatibility simulation for Windows and Linux commands.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+-   **☁️ Google Drive Sync**:
+    -   Simulate selecting a local directory to synchronize.
+    -   Visualize the file and folder hierarchy.
+    -   Track sync progress and receive completion notifications.
+    -   Designed to maintain the exact folder structure in the cloud.
+
+-   **🔖 Bookmark Sync**:
+    -   View bookmarks from multiple simulated sources (e.g., Chrome, Firefox, Local).
+    -   Perform a "many-to-many" sync, merging all bookmarks into a unified collection across all sources.
+    -   Clean, card-based UI to easily distinguish between browser stores.
+
+## 🛠️ Tech Stack
+
+-   **Frontend**: [React](https.reactjs.org) with [TypeScript](https://www.typescriptlang.org/)
+-   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+-   **Icons**: Custom SVG components
+-   **Environment**: Browser-based, no build step required for this prototype (using ES modules and import maps).
+
+## 🚀 Getting Started
+
+For detailed instructions on how to set up and run this project on your local machine, please see the **[Local Setup Guide](./LOCAL_SETUP.md)**.
+
+##  архитектура Project Deep Dive
+
+To understand the project's architecture, design principles, and scalability considerations, read the **[In-depth Project Explanation](./PROJECT_DETAILS.md)**.
+
+## 📄 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
